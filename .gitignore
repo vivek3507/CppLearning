@@ -1,0 +1,14 @@
+STL/Debug
+STL/Release
+STL/STLConcepts/Debug
+STL/STLConcepts/Release
+STL/.vs
+STL/x64
+STL/STLConcepts/x64
+
+Concurrency/Concurrency/Release
+Concurrency/Concurrency/Debug
+Concurrency/Debug
+Concurrency/Release
+Concurrency/.vs
+Concurrency/x64
