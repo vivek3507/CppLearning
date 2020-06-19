@@ -17,6 +17,7 @@ void ideaOfMultiSet();
 void ideaOfUnorderedSet();
 void ideaOfUnorderedMultiSet();
 void ideaOfUnorderedMap();
+void ideaOfUnorderedMultiMap();
 
 int main()
 {
@@ -42,7 +43,9 @@ int main()
 
 	//ideaOfUnorderedMultiSet();
 
-	ideaOfUnorderedMap();
+	//ideaOfUnorderedMap();
+
+	ideaOfUnorderedMultiMap();
 
 }
 

@@ -129,7 +129,7 @@ void ideaOfLambdaFunction()
 	 
  	auto lambda1 = [=](int a) { return a >= key1 && a <= key2; }; //all by value
 	auto lambda2 = [&](int a) { return a >= key1 && a <= key2; }; //all by reference
-	auto lambda3 = [key1, &key2](int a) { return a >= key1 && a <= key2; }; //all by value
+	auto lambda3 = [key1, &key2](int a) { return a >= key1 && a <= key2; }; //selective by value and by reference
 	auto lambda4 = [key1, &key2](int a) mutable { key1 = 45;  return a >= key1 && a <= key2; }; //we can not modify lvalue key1 (as passed by value) without mutable.
 	auto lambda5 = [key1, &key2](int a) { key2 = 45;  return a >= key1 && a <= key2; }; //by refernece value can be modified without mutable keyword
 
