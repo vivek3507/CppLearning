@@ -164,6 +164,9 @@
     <ClCompile Include="unorderedSet_Mset.cpp" />
     <ClCompile Include="Vectors.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MoveVsCopy.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
