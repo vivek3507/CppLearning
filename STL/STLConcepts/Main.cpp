@@ -19,6 +19,7 @@ void ideaOfUnorderedMultiSet();
 void ideaOfUnorderedMap();
 void ideaOfUnorderedMultiMap();
 void ideaOfMoveAndMoveCopy();
+void ideaOfString();
 
 int main()
 {
@@ -48,7 +49,9 @@ int main()
 
 	//ideaOfUnorderedMultiMap();
 
-	ideaOfMoveAndMoveCopy();
+	//ideaOfMoveAndMoveCopy();
+
+	ideaOfString();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

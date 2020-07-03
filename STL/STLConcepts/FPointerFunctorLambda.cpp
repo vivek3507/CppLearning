@@ -113,16 +113,16 @@ void ideaOfLambdaFunction()
 {
 	int key1 = 5;
 	int key2 = 10;
-	//Lambda functions are anonymous function objects which has works around the idea of Use-And-Throw.
+	//Lambda functions are anonymous function objects which works around the idea of Use-And-Throw.
 	//Use-And-Throw means that this function does not exist like usual functions with their definition/declaration managment.
 	//As with usual functions there is a parameter list and return type. Here also we can specify the parameter list and most of the
 	//time return type is deduced or we can mention that also.
 	//Here main thing is to remember that this function is not being used here, it is just being defined here. It will be passed around
-	//and will be called as per the signature and there the parameter will be passed in that context. So the parameter list is entirly
+	//and will be called as per the signature and there the parameter will be passed in that context. So the parameter list is entirely
 	//made for that context.
 	//Now what if we want to trasfer something from this context to the context where this lambda function will be used.
 	//Instead of messing up with the lambda function signature it provides a capture list '[]', which can be filled with current context
-	//variable either by value (=) or by reference, selectively or all of them (which are used inside the lambda function body).
+	//variable either by value (=) or by reference (&), selectively or all of them (which are used inside the lambda function body).
 	//This internally might be being passed as pointers hard value, not sure, but it facilitates it.
 	//C++ lamda functions facilitate very convinient way of injecting logic, though same effect can be achived using other existing ways,
 	//like functors and classes with virtual functions etc.
@@ -137,7 +137,7 @@ void ideaOfLambdaFunction()
 
 	//One another important thing is that these lambda functions acts like an object as they preserve the information passed on (by value)
 	//by capture block at the time when they were created. It means they differ in thier construction and exist as separate objects.
-	//If we pass it by reference it will still be separate objects, the difference is that they are linked to latest values.
+	//If we pass it by reference it will still be separate objects, the difference is that they are linked to l atest values.
 
 	//Lambda Functions are objects!!!
 
